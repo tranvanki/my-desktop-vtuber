@@ -133,7 +133,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Nguyen Trung Kien** (kienntgch230116@fpt.edu.vn)
 
 - Year Created: 2025
-- Repository: https://github.com/yourusername/my-desktop-vtuber
+- Repository:https://github.com/tranvanki/my-desktop-vtuber
 
 ## Contributing
 
