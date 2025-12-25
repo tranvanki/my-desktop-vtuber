@@ -28,12 +28,6 @@ The standalone desktop VTuber runs as a floating window overlay on your desktop.
 4. The desktop window will launch automatically
 5. Start talking to your AI VTuber!
 
-#### 🌐 **Web Interface Mode**
-Access via browser at `http://localhost:12393` for:
-- Cross-platform compatibility
-- Easy sharing and collaboration
-- Advanced configuration UI
-- Works on any device with a browser
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -53,7 +47,7 @@ uv sync
 # Run the server
 uv run python run_server.py
 ```
-
+Download the zip file: My-Desktop-Vtuber - Copy.zip
 ### Configuration
 
 1. Edit `conf.yaml` with your API keys and preferences
@@ -87,16 +81,6 @@ See `conf.yaml` for all available options:
 - **Speech Recognition** - Faster Whisper, Azure ASR, Sherpa ONNX
 - **Live2D Models** - Multiple avatar options
 
-## Creating a Desktop Shortcut (Windows)
-
-For easy access to the desktop VTuber, create a Windows shortcut:
-
-1. **Right-click on Desktop** → New → Shortcut
-2. **Enter this target path:**
-   ```
-   C:\Path\To\Your\Project\start_server.ps1
-   ```
-   (Replace with your actual project path)
 
 3. **Name it:** "My Desktop VTuber"
 4. **Right-click the shortcut** → Properties → Advanced → Check "Run as administrator"
